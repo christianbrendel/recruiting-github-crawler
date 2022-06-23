@@ -11,7 +11,6 @@ projects = ["thuyngch/Iris-Recognition", "vturrisi/solo-learn"]
 if __name__ == "__main__":
     load_dotenv()
     gh_token = os.getenv("GH_TOKEN")
-    gh_token = None
 
     if os.path.exists(file_path):
         with open(file_path, "rb") as f:
