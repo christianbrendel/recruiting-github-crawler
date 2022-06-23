@@ -1,1 +1,1 @@
-# recruiting-github-crawler
+# ai-recruiting-github-crawler

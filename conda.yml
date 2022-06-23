@@ -1,0 +1,12 @@
+name: github-crawler
+channels:
+- conda-forge
+dependencies:
+- python
+- ipykernel
+- python-dotenv
+- matplotlib
+- seaborn
+- pip
+- pip:
+  - --editable .
